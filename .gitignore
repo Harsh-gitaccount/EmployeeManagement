@@ -1,0 +1,33 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio
+.vs/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# NuGet Packages
+*.nupkg
+**/packages/*
+
+# Build files
+*.cache
+*.log
+
+# Uploads folder
+wwwroot/uploads/*
+!wwwroot/uploads/.gitkeep
+
+# Protect database password
+appsettings.json
+appsettings.Development.json
